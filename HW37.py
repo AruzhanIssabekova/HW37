@@ -14,7 +14,7 @@ s = Service(chrome_path)
 s.start()
 driver = webdriver.Chrome(service=s, options=chrome_o)
 
-driver.get("https://kurs1.kz/")
+driver.get("https://uchet.kz/kursi_valut/")
 
 
 time.sleep(5)
