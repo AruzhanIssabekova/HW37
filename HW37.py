@@ -5,7 +5,7 @@ from selenium.webdriver.chrome.options import Options
 import time
 
 
-chrome_path = "C:\Program Files (x86)\Google\Chrome\Application"
+chrome_path = "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe"
 
 chrome_o = Options()
 chrome_o.add_argument("--headless")
